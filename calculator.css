@@ -1,0 +1,39 @@
+#calcDisplay1{
+    height: 75px;
+    width:125px;
+    background-color: lightblue;
+}
+#calcDisplay2{
+    height: 75px;
+    width: 125px;
+    background-color: lightsalmon;
+}
+#calcDisplay3{
+    height: 75px;
+    width: 125px;
+    background-color: lightblue;
+}
+.calcButton{
+    background-color: lightgreen;
+    border-width: 25px;
+    padding: 15px;
+}
+.calcSignButton{
+    background-color: lightgreen;
+    border-width: 25px;
+    padding: 15px;
+}
+#equals{
+    background-color: lightgreen;
+    border-width: 25px;
+    padding: 15px;
+}
+#clear{
+    background-color: lightgreen;
+    border-width: 25px;
+    padding: 15px;
+}
+.container{
+    padding-top: 150px;
+    text-align: center;
+}
