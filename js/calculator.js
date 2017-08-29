@@ -4,6 +4,7 @@ var signBtns = document.getElementsByClassName("calcSignButton");
 var centerDisplay = document.getElementById("calcDisplay2");
 var rightDisplay = document.getElementById("calcDisplay3");
 var equalsSign = document.getElementById("equals");
+var clearBtn = document.getElementById("clear");
 
 for (var i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", function () {
@@ -50,4 +51,9 @@ equalsSign.addEventListener("click", function () {
     centerDisplay.setAttribute("value", "");
     rightDisplay.setAttribute("value", "");
 
+})
+clearBtn.addEventListener("click", function(){
+    centerDisplay.setAttribute("value", "")
+    leftDisplay.setAttribute("value", "")
+    rightDisplay.setAttribute("value", "")
 })
